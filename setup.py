@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='unusualwhales',
     version='0.3.1',
-    packages=find_packages(),
+    packages=find_packages(),  # ← 🔥 This line is what exposes `unusualwhales/` as a module
     install_requires=[],
     description='SDK wrapper for Unusual Whales option flow API',
     author='sbrownpilot',
